@@ -13,10 +13,10 @@
 video_splitter/<br>
 ├── app.py<br>
 ├── templates/<br>
-│   └── index.html<br>
+ │   └── index.html<br>
 ├── static/<br>
-│   ├── style.css<br>
-│   └── script.js<br>
+ │   ├── style.css<br>
+ │   └── script.js<br>
 └── requirements.txt<br>
 
 ## Hosting Locally
