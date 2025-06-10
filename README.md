@@ -37,6 +37,6 @@ http://localhost:5000
 
 ## Creator
 Mysticmovies  
-Website: [Link](https://mysticmovies.site)
-Contact: [Telegram](https://telegram.me/imrankhan95)
+Website: [Link](https://mysticmovies.site)<br>
+Contact: [Telegram](https://telegram.me/imrankhan95)<br>
 Website Contact: [Contact Us](https://mysticmovies.site/contact)
