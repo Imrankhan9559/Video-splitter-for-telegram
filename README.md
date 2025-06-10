@@ -10,14 +10,14 @@
 - Stores them in `~/Downloads/video_splitter/{Video Name}`.
 
 ## Project Structure
-video_splitter/
-├── app.py
-├── templates/
-│   └── index.html
-├── static/
-│   ├── style.css
-│   └── script.js
-└── requirements.txt
+video_splitter/<br>
+├── app.py<br>
+├── templates/<br>
+│   └── index.html<br>
+├── static/<br>
+│   ├── style.css<br>
+│   └── script.js<br>
+└── requirements.txt<br>
 
 ## Hosting Locally
 1. Install dependencies:
@@ -37,4 +37,4 @@ http://localhost:5000
 
 ## Creator
 Mysticmovies  
-Website: [https://mysticmovies.site](https://mysticmovies.site)
+Website: [Link](https://mysticmovies.site)
