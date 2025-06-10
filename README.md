@@ -7,7 +7,7 @@
 - Stylish animated user interface.
 - Automatically splits any video into 2 parts.
 - Names parts like `1 Filename` and `2 Filename`.
-- Stores them in `~/Downloads/video_splitter/{Video Name}`.
+- Stores them in `~/Downloads/video_splitter/{Video Name}/(splited videos)`.
 
 ## Project Structure
 video_splitter/<br>
@@ -38,3 +38,5 @@ http://localhost:5000
 ## Creator
 Mysticmovies  
 Website: [Link](https://mysticmovies.site)
+Contact: [Telegram](https://telegram.me/imrankhan95)
+Website Contact: [Contact Us](https://mysticmovies.site/contact)
