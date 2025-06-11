@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Splitter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Mysticmovies - Video Splitter</h1>
+        <p>Upload a video file to split it into 2GB parts</p>
+        
+        <form id="uploadForm" method="post" enctype="multipart/form-data">
+            <div class="file-upload">
+                <input type="file" name="file" id="file" accept="video/*" required>
+                <label for="file" id="file-label">Choose a video file</label>
+                <span id="file-name"></span>
+            </div>
+            <button type="submit">Split Video</button>
+        </form>
+
+        <div id="progressContainer" class="progress-container" style="display: none;">
+            <h3>Splitting <span id="currentFilename"></span></h3>
+            <div class="progress-bar">
+                <div id="progressBar" class="progress"></div>
+            </div>
+            <p id="progressText">0%</p>
+        </div>
+
+        <div id="resultContainer" class="result" style="display: none;">
+            <h3>Success!</h3>
+            <p>Video <strong id="resultFilename"></strong> has been split into <span id="partCount"></span> parts:</p>
+            <ul id="fileList">
+            </ul>
+            <p class="note">Files saved in: <span id="outputPath"></span></p>
+            <p class="note">Note: The folder will be automatically deleted after download.</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
